@@ -1,0 +1,152 @@
+<resources>
+    <string name="app_name">MiProyecto</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="tituloMenu">Diarios y noticias de España</string>
+    <string name="correoUsuario">correo@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Diarios de España</string>
+    <string name="menu_gallery">Noticias en vivo</string>
+    <string name="menu_deportivas">Noticias deportivas en vivo</string>
+    <string name="menu_economia">Noticias de economía en vivo</string>
+    <string name="menu_tecnologia">Noticias tecnológicas en vivo</string>
+    <string name="noticiasdirecto">Noticias en directo</string>
+    <string name="otras">Otras opciones</string>
+    <string name="menu_slideshow">Configuración</string>
+    <string name="menu_acerca">Sobre nosotros</string>
+    <string name="texto_pantalla_principal">Diarios y noticias de España</string>
+    <string name="diarios">Diarios de España</string>
+    <string name="noticias_generales">Noticias generales</string>
+    <string name="noticias_deportivas">Noticias deportivas</string>
+    <string name="noticias_economia">Noticias economía</string>
+    <string name="noticias_tecnologia">Noticias tecnología</string>
+    <string name="noticias_internacionales">Noticias internacionales</string>
+    <string name="noticias">Noticias de España</string>
+    <string name="configuracion">Configuración</string>
+    <string name="acerca">Acerca de</string>
+    <string name="appbar_scrolling_view_behavior">com.google.android.material.bottomsheet.BottomSheetBehavior</string>
+    <string name="welcome_news_title">Novedades</string>
+    <string name="welcome_news_next">Siguiente</string>
+    <string name="generales"><h1>Generales</h1></string>
+    <string name="regionales"><h1>Regionales</h1></string>
+    <string name="economia"><h1>Economía y política</h1></string>
+    <string name="deportes"><h1>Deportes</h1></string>
+    <string name="tecnologia"><h1>Tecnología</h1></string>
+    <string name="celebridades"><h1>Celebridades</h1></string>
+    <string name="moda"><h1>Moda</h1></string>
+
+
+    <string name="title_activity_detalles">Detalles</string>
+    <!-- String utilizadas para fragmentos de navegación -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="titulo">Titulo de noticia</string>
+    <string name="fecha">07/10/2020</string>
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="nada">nada</string>
+
+    <string name="clausula1">
+        \t<b><u>CLÁUSULA 1 : Condiciones de uso.</u></b>\n\n
+        Las presentes condiciones de uso ( en adelante, "Condiciones de uso") regulan el acceso y la utilización de la aplicación "Noticias y diarios de España", propiedad única y exclusivamente de JOBEANDA STUDIOS S.L, así como  los contenidos y servicios que el títular pone a disposición de los usuarios, (en adelante "Usuarios").\n
+        Asimismo, las presentes condiciones de uso establecen los términos y condiciones por los que se rige el funcionamiento y utilización de Noticias y diarios de España.\n
+    </string>
+
+    <string name="clausula2">
+        \t<b><u>CLÁUSULA 2 : Aceptación.</u></b>\n\n
+        El acceso a Noticias y diarios de España o su uso por el Usuario implica necesariamente, y sin reservas, el conocimiento y aceptación de las presentes Términos y Condiciones, por tanto, se recomienda que el Usuario las lea detenidamente.\n
+        La indicación de aceptación del corriente, implica la lectura y comprensión de los Términos y Condiciones que hacen al corriente.
+    </string>
+
+
+    <string name="clausula3">
+        \t<b><u>CLÁUSULA 3 : Propiedad intelectual.</u></b>\n\n
+        Jobeanda Studio S.A., resulta ser la única y exclusiva propietaria del diseño, implementación y contenido que le es propio de la interfaz y su funcionamiento, incluyendo su diseño gráfico y el código fuente, de Diarios y noticias de España; los cuales están protegidos por derechos de autor y demás derechos previstos en los diversos ordenamientos jurídicos del mundo, y, en particular, en el Convenio de París para la Protección de la Propiedad Industrial del 20 de marzo de 1883, revisado en Bruselas el 14 de diciembre de 1900 en Washington el 2 de junio de 1911, en La Haya el 6 de noviembre de 1925, en Londres el 2 de junio de 1934 y en Lisboa el 31 de octubre de 1958 (Acta de Lisboa), y concordantes, y propios de cada región o país en el que la presente sea utilizada.\n
+        Estos derechos pertenecen exclusivamente a Jobeanda Studio S.A. o a sus licenciantes, por lo tanto, queda expresamente prohibido cualquier acto de reproducción, distribución, transformación o comunicación pública, así como cualquier tipo de cesión, del todo o parte del contenido de Diarios y noticias de España, las herramientas por éste incluidas, sus secciones o cualquier otro contenido estético o informático existente en este, y en general cualquier acto de explotación de la totalidad o parte de los contenidos (imágenes, textos, diseño, índices, formas, etc.) así como de las bases de datos y del software necesario para la visualización o el funcionamiento de los mismos y de cualquier objeto que según la legislación vigente sea protegible por las normas de propiedad intelectual.\n
+        Los Usuarios no podrán en ningún caso explotar o servirse comercialmente, de forma directa o indirecta, total o parcial, de ninguno de los contenidos. La autorización para el uso de cualquier contenido del sitio web puede solicitarse a la dirección de correo electrónico socrates.descartes.1980@gmail.com. Lo establecido en los párrafos anteriores no supondrá en ningún caso la asunción de responsabilidad por parte de Jobeanda Studio S.A. sobre el contenido, ni podrá generar derecho a indemnización para Usuarios o terceros.\n
+        No podrán utilizarse las marcas, nombres comerciales, rótulos de establecimientos, denominaciones, logotipos, eslóganes o cualquier tipo de signo distintivo mostrado en Diarios y noticias de España.\n
+        Jobeanda Studio S.A. se reserva expresamente cuantas acciones civiles y penales, en virtud de la legislación nacional y extranjera pudieran corresponderle como consecuencia de la vulneración de los derechos de propiedad industrial e intelectual que le corresponden.\n
+        No obstante, Jobeanda Studio S.A. declara que la edición, redacción, contenido, opiniones, análisis, como todo otro elemento exhibido en los medios de comunicación a los cuales puede accederse a través de Diarios y noticias de España no son de su propiedad intelectual, la cual corresponden únicamente a las empresas o personas titulares de los respectivos derechos involucrados.\n
+        Así también, Jobeanda Studio S.A. manifiesta que los isologotipos presentes en Noticias y diarios de España no corresponden a su autoría, ni a su propiedad intelectual. Su exhibición es realizada al mero efecto estético e identificatorio, sin que ello implique o devengue beneficio económico o uso concreto y propio del ejercicio de la propiedad intelectual que sobre los mismos se ciñe.
+        </string>
+
+    <string name="clausula4">
+        \t<b><u>CLÁUSULA 4 : Ajenidad del contenido y de la eventual responsabilidad involucrada.</u></b>\n\n
+        Jobeanda Studio S.A. no se responsabiliza, de ninguna manera, del contenido gráfico o escrito presente en los medios de comunicación exhibidos, en tanto que la autoría de los mismos, conforme lo indicado al apartado precedente, le es absolutamente ajena.\n
+        La totalidad de las tapas y contenidos digitales de los medios de comunicación que puede ser accedidos por el Usuario, responden a información ya de por sí accesibles de forma libre e independiente por parte del público en general. De esta manera, la exhibición que puede ser obtenida a través de Diarios y noticias de España es dispuesta al mero efecto difusivo y distributivo de la información.
+    </string>
+
+    <string name="clausula5">
+        \t<b><u>CLÁUSULA 5 : Condiciones de uso. Almacenaje de datos.</u></b>\n\n
+        No se requiere la registración o el llenado de formularios previos, por parte de los Usuarios que deseen hacer uso de Diarios y noticias de Esaña.\n
+Jobeanda Studio S.A. no recopila de manera propia y directa datos personales, sean sensibles o no, de los Usuarios que pudieran acceder al uso de Diarios y noticias de España; no obstante de los datos que pudieran ser recopilados a través de las funciones autónomas e independientes de la voluntad y control de Jobeanda Studio S.A., y a modo de desarrollo meramente técnico, por parte del sistema Google Analytics®, o aquellos que fueran almacenados por terceros intermePeriódicos Españoles como lo son –sin que tal enumeración implique limitación alguna- App Store®, Google Play®, Facebook®, Twitter®, RSS, entre otros.\n
+Jobeanda Studio S.A. no recopila datos personales, sean sensibles o no, de sus usuarios con el propósito de efectuar futuras transferencias de los mismos, sean onerosas o gratuitas.
+    </string>
+
+    <string name="clausula6">
+        \t<b><u>CLÁUSULA 6 : Limitaciones tecnológicas.</u></b>\n\n
+        Ponemos en conocimiento del Usuario que, como consecuencia de la realización de trabajos de mantenimiento, en determinados casos pueden producirse interrupciones temporales en los servicios brindados por Diarios y noticias de España.\n
+        Informamos asimismo al Usuario que, además de los indicados anteriormente, existe una gran variedad de factores que pueden afectar Diarios y noticias de España, a las herramientas tecnológicas que operan dentro de la aplicación, y/o a su calidad, tales como, a título enunciativo, pero no limitativo: condiciones ambientales, saturación de redes, conectividad, software de terceros, etc. A través de la siguiente dirección de correo electrónico puede ponerse en contacto con nosotros para trasladarnos errores que detecte, así como comentarios y sugerencias: socrates.descartes.1980@gmail.com.
+    </string>
+
+    <string name="clausula7">
+        \t<b><u>CLÁUSULA 7 : Usos prohibidos.</u></b>\n\n
+        El Usuario únicamente podrá utilizar Diarios y noticias de España y las herramientas tecnológicas existentes en tal aplicación con fines acordes al alcance establecido en las presentes Condiciones de Uso.\n
+El Usuario se abstendrá de utilizar la aplicación para realizar cualquier actividad ilícita. En particular, y sin limitación:\n
+- Acosar o perturbar a terceras personas y/o vulnerar su intimidad y privacidad;\n
+- Suplantar la identidad de otros Usuarios o terceros;\n
+- Incluir informaciones, comentarios, imágenes o contenidos que puedan ser considerados difamatorios, racistas, sexistas, discriminatorios, pornográficos, violentos, o que de cualquier modo contraríen el orden público o resulten claramente ilícitos;\n
+- Menoscabar la reputación, imagen y honor de otros Usuarios o de terceros;\n
+- Transmitir publicidad no solicitada o utorizada;\n
+- Realizar actos fraudulentos;\n
+- Introducir o difundir en la red programas de datos (virus y software nocivo) susceptibles de provocar daños en los sistemas informáticos del proveedor de acceso o terceros usuarios;\n
+- Cualquier otra acción prohibida y/o declarada ilícita por nuestro ordenamiento jurídico.\n\n
+El Usuario no llevará a cabo ninguna actividad que pueda causar un daño o perjuicio a cualquier tercero, así como a Jobeanda Studio S.A. , su funcionamiento y/o desarrollo.\n
+En el caso de que un Usuario tenga conocimiento de que un tercero lleva a cabo alguna de las conductas mencionadas anteriormente, o de toda otra que a su criterio pudiera estar en contra de las leyes vigentes en el país, se lo exhorta a que nos lo notifique a través de la siguiente dirección de correo electrónico socrates.descartes.1980@gmail.com, con el objeto de que adoptemos las medidas oportunas.
+    </string>
+
+    <string name="clausula8">
+        \t<b><u>CLÁUSULA 8 : Exoneración de responsabilidad.</u></b>\n\n
+Jobeanda Studio S.A. se exonera de toda responsabilidad relativa a:\n
+- El funcionamiento de Diarios y noticias de España y las herramientas digitales disponibles, incluyendo causas de fuerza mayor, o cualesquiera otras ajenas a la voluntad de Jobeanda Studio S.A., que no se encuentre totalmente operativo, o carezca eventualmente de la funcionalidad mínima para gestionar el servicio pertinente.\n
+- Los posibles errores o deficiencias de seguridad que pudieran producirse por la utilización por parte de los Usuarios de un sistema operativo que corresponda a una versión no actualizada o insegura.\n
+- Por los daños y perjuicios, directos o indirectos, que pudiera causar la información cuyo acceso permite Diarios y noticias de España a través de su software, lo cuales, como fuera indicados le resultan totalmente ajenos.\n
+- Los contenidos a los que Diarios y noticias de España permita acceso, ya que no puede dar garantías ni seguridad, en forma expresa o tácita, implícita o explícita, respecto de la exactitud, veracidad o integridad de la información ofrecida o referenciada en el mismo. Jobeanda Studio S.A. no se responsabiliza por las consecuencias derivadas de las acciones o reclamaciones que terceras partes ejecuten haciendo referencia o invocando, ya sea directa o indirectamente, la información aludida en Diarios y noticias de España. En cualquier caso, Jobeanda Studio S.A. aplica los mayores esfuerzos, tanto técnicos como humanos para mantener actualizado y completo el repertorio de información a cuyo acceso permite.\n
+- Los daños, incluyendo entre otros, y sin limitarse a éstos: daños, pérdidas o gastos directos o indirectos, inherentes o consecuentes, que surjan en relación con este Servicio o su uso o imposibilidad de uso por alguna de las partes, o en relación con cualquier fallo en el rendimiento, error, omisión, interrupción, defecto, demora en la operación o transmisión, virus informáticos o fallos de sistema o línea.\n
+El Usuario responderá por los daños y perjuicios de cualquier naturaleza por actos ilícitos o fraudulentos, así como aquellos daños o perjuicios que Jobeanda Studio S.A. o sus Usuarios pudieran sufrir como consecuencia, directa o indirecta, del incumplimiento por parte del Usuario de las presentes Condiciones de Uso, reservándose Jobeanda Studio S.A. aquellas acciones a las que tuviera derecho ante las autoridades judiciales o policiales pertinentes.\n
+Aunque emplea sus mayores esfuerzos, Jobeanda Studio S.A. no puede garantizar a los Usuarios el acceso y uso continuado e ininterrumpido de Diarios y noticias de España y de los servicios brindados.
+
+    </string>
+
+    <string name="clausula9">
+        \t<b><u>CLÁUSULA 9 : Enlaces a terceros.</u></b>\n\n
+Jobeanda Studio S.A. no asume responsabilidad alguna derivada de los enlaces (links) que posibiliten, a través de Diarios y noticias de España, el acceso del Usuario a prestaciones y servicios ofrecidos por terceros, siempre que sean ajenos a Diarios y noticias de España. Por tanto, Jobeanda Studio S.A. no se hace responsable ni de la información contenida en los mismos ni de cualesquiera efectos que pudieran derivarse de dicha información.\n
+Si cualquier Usuario o tercero observara que tales enlaces puedan ser contrarios a las leyes, la moral o el orden público, deberá informarlo a Jobeanda Studio S.A. a través del correo electrónico: socrates.descartes.180@gmail.com
+    </string>
+
+    <string name="clausula10">
+        \t<b><u>CLÁUSULA 10 : Accesibilidad.</u></b>\n\n
+Jobeanda Studio S.A., a través de Diarios y noticias de España, no monopoliza, restringe o de cualquier forma limita el acceso a los medios de información en cuestión de forma autónoma e independiente por parte del Usuario. El diseño informático con el que cuenta Diarios y noticias de España no solo no obstaculiza, sino que permite el acceso directo de parte del Usuario a los medios de información en cuestión. De esta manera, y para acceder a tal prerrogativa, el Usuario podrá hacer uso de la opción a través de configuración, habilitando la función "Abrir en navegador externo".\n
+Asimismo, el orden en el que los medios son exhibidos en la interfaz presente en Diarios y noticias de España no responde a cuestiones de preferencia, concordancia, afinidad política o cualquier otro motivo distinto al meramente aleatorio.
+    </string>
+
+
+    <string name="clausula11">
+        \t<b><u>CLÁUSULA 11 : Modificaciones.</u></b>\n\n
+Notificaremos al Usuario los cambios en las Condiciones de Uso de Diarios y noticias de España con anterioridad a que éstos se produzcan. Si el Usuario no está conforme con los cambios, deberá dejar de utilizar Diarios y noticias de España, así como los servicios ofrecidos a través del mismo.\n
+Se reputará que ha operado la notificación previa cuando las Condiciones de Uso ya figuren como modificadas a través de las aplicaciones que permiten su descarga o actualización, o a través de mensajes, del tipo pop up, que pudieran mostrarse al momento de producirse al acceso de la aplicación de la propiedad de Jobeanda Studio S.A.\n
+La utilización de Diarios y noticias de España tras la notificación de los cambios supondrá la aceptación de los mismos por el Usuario.
+    </string>
+
+    <string name="clausula12">
+        \t<b><u>CLÁUSULA 12 : Jurisdicción y derecho aplicable.</u></b>\n\n
+El funcionamiento y utilización de Diarios y noticias de España, así como las presentes Condiciones de Uso se rigen por la legislación aplicable. En la medida en que así lo permita la ley, Jobeanda Studio S.A. y quien pretenda entablar reclamación alguna con respecto a Periódicos Españoles, con renuncia expresa a cualquier otro fuero que pudiera corresponderles, se someterán a la jurisdicción de los Juzgados y Tribunales que resulten competentes en la República Argentina.
+    </string>
+
+
+
+</resources>

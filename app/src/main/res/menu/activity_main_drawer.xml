@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_diarios"
+            android:icon="@drawable/generales"
+            android:title="@string/diarios" />
+
+    </group>
+
+    <item
+        android:id="@+id/navigation_subheader"
+        android:title="@string/noticiasdirecto">
+        <menu>
+            <item
+                android:id="@+id/nav_noticias_generales"
+                android:icon="@drawable/noticias_generales"
+                android:title="@string/noticias_generales" />
+
+            <item
+                android:id="@+id/nav_noticias_deportivas"
+                android:icon="@drawable/noticiasdeportivas"
+                android:title="@string/noticias_deportivas" />
+
+            <item
+                android:id="@+id/nav_noticias_economia"
+                android:icon="@drawable/noticiaseconomia"
+                android:title="@string/noticias_economia" />
+
+            <item
+                android:id="@+id/nav_noticias_tecnologia"
+                android:icon="@drawable/noticiastecnologia"
+                android:title="@string/noticias_tecnologia" />
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/navigation_subheader2"
+        android:title="@string/noticias_internacionales"
+        android:icon="@drawable/internacionales">
+        <menu>
+            <item
+                android:id="@+id/nav_noticias_internacionales"
+                android:title="EEUU" />
+            <item
+                android:id="@+id/nav_noticias_internacionales2"
+                android:title="Inglaterra" />
+            <item
+                android:id="@+id/nav_noticias_internacionales3"
+                android:title="Francia" />
+            <item
+                android:id="@+id/nav_noticias_internacionales4"
+                android:title="Italia" />
+            <item
+                android:id="@+id/nav_noticias_internacionales5"
+                android:title="Habla hispana" />
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/navigation_subheader3"
+        android:title="Otras opciones">
+        <menu>
+            <item
+                android:id="@+id/nav_configuracion"
+                android:icon="@drawable/setting"
+                android:title="@string/configuracion" />
+            <item
+                android:id="@+id/nav_acerca"
+                android:icon="@drawable/acerca"
+                android:title="@string/acerca" />
+        </menu>
+    </item>
+
+</menu>

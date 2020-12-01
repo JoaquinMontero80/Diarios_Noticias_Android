@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/amber_500"
+    tools:context=".ui.acerca.ActividadAcerca">
+
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="172dp"
+        android:layout_height="148dp"
+        android:layout_marginTop="75dp"
+        android:src="@drawable/icono"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="381dp"
+        android:layout_height="36dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/texto_pantalla_principal"
+        android:textColor="@color/red_A700"
+        android:textSize="30dp"
+        android:layout_marginVertical="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.533"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:id="@+id/cardview1"
+        android:visibility="visible"
+        app:cardBackgroundColor="@color/light_green_50"
+        app:cardCornerRadius="50dp"
+        app:cardElevation="20dp"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        tools:layout_editor_absoluteX="10dp">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/iconocontactar"
+                    android:layout_width="?attr/actionBarSize"
+                    android:layout_height="?attr/actionBarSize"
+                    android:background="?attr/selectableItemBackgroundBorderless"
+                    android:contentDescription="@string/nada"
+                    android:clickable="false"
+                    app:srcCompat="@drawable/gmail"
+                    tools:ignore="VectorDrawableCompat" />
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/botoncontactar"
+                    style="@style/Button.Accent.Borderless2"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="CONTACTAR"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+
+            </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:id="@+id/cardview3"
+        android:visibility="visible"
+        app:cardBackgroundColor="@color/light_green_50"
+        app:cardCornerRadius="50dp"
+        app:cardElevation="20dp"
+        app:layout_constraintTop_toBottomOf="@+id/cardview1"
+        tools:context=".ui.noticias.noticiasGenerales.ActividadNoticias"
+        tools:layout_editor_absoluteX="10dp">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/iconoterminos"
+                android:layout_width="?attr/actionBarSize"
+                android:layout_height="?attr/actionBarSize"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:contentDescription="@string/nada"
+                android:clickable="false"
+                app:srcCompat="@drawable/terminos"
+                tools:ignore="VectorDrawableCompat" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/botonterminos"
+                style="@style/Button.Accent.Borderless2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="TÉRMINOS Y CONDICIONES"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:id="@+id/cardview4"
+        android:visibility="visible"
+        app:cardBackgroundColor="@color/light_green_50"
+        app:cardCornerRadius="50dp"
+        app:cardElevation="20dp"
+        app:layout_constraintTop_toBottomOf="@+id/cardview3"
+        tools:context=".ui.noticias.noticiasGenerales.ActividadNoticias"
+        tools:layout_editor_absoluteX="10dp">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/iconoGooglePlay"
+                android:layout_width="?attr/actionBarSize"
+                android:layout_height="?attr/actionBarSize"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:contentDescription="@string/nada"
+                android:clickable="false"
+                app:srcCompat="@drawable/calificanos"
+                tools:ignore="VectorDrawableCompat" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/botonGooglePlay"
+                style="@style/Button.Accent.Borderless2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="CALIFÍCANOS EN GOOGLE PLAY"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:id="@+id/cardview5"
+        android:visibility="visible"
+        app:cardBackgroundColor="@color/light_green_50"
+        app:cardCornerRadius="50dp"
+        app:cardElevation="20dp"
+        app:layout_constraintTop_toBottomOf="@+id/cardview4"
+        tools:context=".ui.noticias.noticiasGenerales.ActividadNoticias"
+        tools:layout_editor_absoluteX="10dp">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/iconoCompartir"
+                android:layout_width="?attr/actionBarSize"
+                android:layout_height="?attr/actionBarSize"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:contentDescription="@string/nada"
+                android:clickable="false"
+                android:tint="#000000"
+                app:srcCompat="@drawable/ic_share"
+                tools:ignore="VectorDrawableCompat" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/botonCompartir"
+                style="@style/Button.Accent.Borderless2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="COMPARTIR APLICACIÓN"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:id="@+id/cardview6"
+        android:visibility="visible"
+        app:cardBackgroundColor="@color/light_green_50"
+        app:cardCornerRadius="50dp"
+        app:cardElevation="20dp"
+        app:layout_constraintTop_toBottomOf="@+id/cardview5"
+        tools:context=".ui.noticias.noticiasGenerales.ActividadNoticias"
+        tools:layout_editor_absoluteX="10dp">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/iconootrasapp"
+                android:layout_width="?attr/actionBarSize"
+                android:layout_height="?attr/actionBarSize"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:contentDescription="@string/nada"
+                android:clickable="false"
+                app:srcCompat="@drawable/otrasapp"
+                tools:ignore="VectorDrawableCompat" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/botonotrasapp"
+                style="@style/Button.Accent.Borderless2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="APP DEL DESARROLLADOR"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_diarios">
+
+    <fragment
+        android:id="@+id/nav_diarios"
+        android:name="com.jobeanda.miproyecto.ui.diarios.ActividadDiarios"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_diarios" />
+
+    <fragment
+        android:id="@+id/nav_noticias_generales"
+        android:name="com.jobeanda.miproyecto.ui.noticias.noticiasGenerales.PrincipalGenerales"
+        android:label="@string/menu_gallery"
+        tools:layout="@layout/activity_principal_generales" />
+
+    <fragment
+        android:id="@+id/nav_noticias_deportivas"
+        android:name="com.jobeanda.miproyecto.ui.noticias.noticiasDeportivas.PrincipalDeportivas"
+        android:label="@string/menu_deportivas"
+        tools:layout="@layout/activity_principal_deportivas" />
+
+    <fragment
+        android:id="@+id/nav_noticias_economia"
+        android:name="com.jobeanda.miproyecto.ui.noticias.noticiasEconomia.PrincipalEconomia"
+        android:label="@string/menu_economia"
+        tools:layout="@layout/activity_principal_economia" />
+
+    <fragment
+        android:id="@+id/nav_noticias_tecnologia"
+        android:name="com.jobeanda.miproyecto.ui.noticias.noticiasTecnologia.PrincipalTecnologia"
+        android:label="@string/menu_tecnologia"
+        tools:layout="@layout/activity_principal_tecnologia" />
+
+    <fragment
+        android:id="@+id/nav_noticias_internacionales"
+        android:name="com.jobeanda.miproyecto.ui.internacionales.ActividadInternacionales"
+        android:label="@string/noticias_internacionales"
+        tools:layout="@layout/recycler_noticias" />
+
+    <fragment
+        android:id="@+id/nav_noticias_internacionales4"
+        android:name="com.jobeanda.miproyecto.ui.internacionales.ActividadInternacionalesItalia"
+        android:label="@string/noticias_internacionales"
+        tools:layout="@layout/recycler_noticias" />
+
+    <fragment
+        android:id="@+id/nav_noticias_internacionales5"
+        android:name="com.jobeanda.miproyecto.ui.internacionales.ActividadInternacionalesResto"
+        android:label="@string/noticias_internacionales"
+        tools:layout="@layout/recycler_noticias" />
+
+    <fragment
+        android:id="@+id/nav_noticias_internacionales2"
+        android:name="com.jobeanda.miproyecto.ui.internacionales.ActividadInternacionalesInglaterra"
+        android:label="@string/noticias_internacionales"
+        tools:layout="@layout/recycler_noticias" />
+
+    <fragment
+        android:id="@+id/nav_noticias_internacionales3"
+        android:name="com.jobeanda.miproyecto.ui.internacionales.ActividadInternacionalesFrancia"
+        android:label="@string/noticias_internacionales"
+        tools:layout="@layout/recycler_noticias" />
+
+    <fragment
+        android:id="@+id/nav_configuracion"
+        android:name="com.jobeanda.miproyecto.ui.configuracion.ConfiguracionFragment"
+        android:label="@string/menu_slideshow"
+        tools:layout="@layout/fragment_configuracion" />
+    <fragment
+        android:id="@+id/nav_acerca"
+        android:name="com.jobeanda.miproyecto.ui.acerca.ActividadAcerca"
+        android:label="@string/menu_acerca"
+        tools:layout="@layout/activity_acerca" />
+
+</navigation>
